@@ -22,7 +22,7 @@ public class Base {
     properties = new Properties();
     try {
       InputStream inputStream = new FileInputStream(
-          "C:\\Users\\bhara\\eclipse-workspace\\WebTours\\src\\main\\resources\\configuration.properties");
+          "E:\\PROJECTS\\WebTours\\src\\main\\resources\\configuration.properties");
       properties.load(inputStream);
     } catch (Exception e) {
       e.printStackTrace();
